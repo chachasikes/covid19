@@ -134,8 +134,11 @@ You will need to have an established version naming pattern for any releases.
 `git remote`
 
 ### Add remote origin
-`git remote add path to origin`
+`git remote add path_to_origin`
 e.g. git remote add https://github.com/cagov/covid19.git
+
+## Create a fork
+`git remote add fork git@github.com:username/covid19.git`
 
 ### See urls for remote origins
 `git remote -v`
