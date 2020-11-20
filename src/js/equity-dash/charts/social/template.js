@@ -21,7 +21,7 @@ export default function template(inputval) {
             </div>
         </div>
         <div class="row d-flex justify-content-md-center">
-          <p class="text-xs">Note: Data comes from the American Community Survey and is statewide. It does not reflect individual counties. Data shown is cumulative for the last 7 days and updated daily</p>
+          <p class="chart-data-label">Note: Data comes from the American Community Survey and is statewide. It does not reflect individual counties. Data shown is cumulative for the last 7 days and updated daily.</p>
         </div>
     </div><!--END col-12-->
   </div><!--END CONTAINER-->
