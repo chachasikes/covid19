@@ -302,6 +302,8 @@ class CAGOVEquityMissingness extends window.HTMLElement {
       return title;
     }
 
+    translations.title = translations.chartTitle({});
+
 
     // Generate tooltip text, taking dynamic variable.
     // This takes an HTML text string from the template.
@@ -324,7 +326,7 @@ class CAGOVEquityMissingness extends window.HTMLElement {
         tooltipHTML = tooltipHTML.replace('<span data-replace="data-type">race and ethnicity</span>', `<span data-replace="data-type">${dataType}</span>`);
         return tooltipHTML;
       }
-    return translations;
+      return translations;
   }
 
   drawSvg(data) {
