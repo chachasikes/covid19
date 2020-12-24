@@ -1,12 +1,14 @@
 import Awesomplete from 'awesomplete-es6';
-import templatize from './template.js';
-
+import template from './template.js';
+/**
+ * 
+ */
 class CAGovReopening extends window.HTMLElement {
   connectedCallback () {
     this.json = JSON.parse(this.dataset.json);
     this.state = {};
 
-    this.innerHTML = templatize(this.json);
+    this.innerHTML = template(this.json);
     let theMatrix = document.querySelector('.the-matrix');
     if(theMatrix) {
       document.querySelector('.matrix-holder').innerHTML = theMatrix.innerHTML;
